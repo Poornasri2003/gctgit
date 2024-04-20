@@ -369,11 +369,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 	(function ($) {
     	$(function() {
     		$(window).scroll(function() {
-    			if($(this).scrollTop() != 0) {
-    				$('#toTop').fadeIn();	
-    			} else {
-    				$('#toTop').fadeOut();
-    			}
+    			
     		});
     	 
     		$('#toTop').click(function() {
